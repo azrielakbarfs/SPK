@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:layout_width="406dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logo2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sistem Pengambilan Keputusan Pemilihan SmartPhone"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="#0C356A"
+        android:textStyle="bold"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="15dp"
+        android:layout_marginTop="20sp"
+        android:layout_marginBottom="20sp"
+        android:textStyle="bold|italic"
+        android:text="Berapakah Budget Anda?" />
+
+    <CheckBox
+        android:id="@+id/budget1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kurang Dari 2.000.000" />
+
+    <CheckBox
+        android:id="@+id/budget2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2.000.000 - 3.500.000" />
+
+    <CheckBox
+        android:id="@+id/budget3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lebih Dari 3.500.000" />
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kebutuhan Seperti Apa Yang Anda Butuhkan?"
+        android:textAlignment="center"
+        android:layout_marginTop="20sp"
+        android:layout_marginBottom="20sp"
+        android:textSize="15dp"
+        android:textStyle="bold|italic" />
+    <CheckBox
+        android:id="@+id/kebutuhan1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Personal Use" />
+
+    <CheckBox
+        android:id="@+id/kebutuhan2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gaming" />
+
+    <CheckBox
+        android:id="@+id/kebutuhan3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Multitasking" />
+
+    <CheckBox
+        android:id="@+id/kebutuhan4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Photography" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="20sp"
+        android:layout_marginBottom="20sp"
+        android:text="Sistem Operasi apakah yang anda butuhkan?"
+        android:textSize="15dp"
+        android:textStyle="bold|italic" />
+
+    <CheckBox
+        android:id="@+id/OS1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Android" />
+
+    <CheckBox
+        android:id="@+id/OS2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IOS" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:layout_marginBottom="20sp"
+        android:text="Apakah anda memerlukan penyimpanan lebih?"
+        android:textAlignment="center"
+        android:textSize="15dp"
+        android:textStyle="bold|italic" />
+
+    <CheckBox
+        android:id="@+id/ram1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ya" />
+
+    <CheckBox
+        android:id="@+id/ram2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tidak" />
+
+    <Button
+        android:id="@+id/konfirmasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:text="Konfirmasi" />
+
+</LinearLayout>
+</ScrollView>
